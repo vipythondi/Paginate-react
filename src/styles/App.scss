@@ -1,0 +1,106 @@
+
+.App{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+    background-color: #F3F3F3;
+    margin-top: 50px;
+}
+.MembersSections{
+    display: grid;
+    align-items: center;
+    // text-align: center;
+    grid-template-rows: 50px;
+    grid-template-columns: 80px 100px 150px 150px 250px 150px 150px 150px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 7px 0px rgba(183,175,175,0.75);
+    background-color: white;
+}
+.Member{
+    display: grid;
+    align-items: center;
+    grid-template-rows: 50px;
+    grid-template-columns: 80px 100px 150px 150px 250px 150px 150px 150px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: -1px 2px 7px 0px rgba(183,175,175,0.75);
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+
+.pages{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px;
+    &__box{
+        border: 1px solid black;
+    }
+}
+.information{
+    display: grid;
+    align-items: center;
+    grid-template-rows: 80px;
+    grid-template-columns: 700px 400px 110px;
+    input{
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 15px;
+        font-size: 15px;
+        outline: none; 
+        box-shadow: -1px 2px 7px 0px rgba(183,175,175,0.75);
+        border: none;
+        
+    }
+    .switchNumber{
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    
+}
+.leftright{
+    display: flex;
+    img{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+
+.paginate{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 35px;
+    list-style: none;
+    margin: 0;
+}
+
+
+.active{
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.previous{
+    border: 1px solid blue;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.next{
+    border: 1px solid blue;
+    margin-left: 5px;
+    cursor: pointer;
+}
